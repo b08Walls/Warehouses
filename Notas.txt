@@ -1,0 +1,39 @@
+                         _____                _   __  __      _                        
+                        |  __ \              | | |  \/  |    | |                       
+  ______ ______ ______  | |__) |___  __ _  __| | | \  / | ___| |  ______ ______ ______ 
+ |______|______|______| |  _  // _ \/ _` |/ _` | | |\/| |/ _ \ | |______|______|______|
+                        | | \ \  __/ (_| | (_| | | |  | |  __/_|                       
+                        |_|  \_\___|\__,_|\__,_| |_|  |_|\___(_)                       
+                                                                                       
+                                                                                       
+IMPORTANTE:
+
+	En el archivo DataBaseHandler.java se deben modificar las lineas de codigo:
+		-	14
+		-	15
+		-	17
+		-	18
+
+	que son las que contienen las constantes utilizadas para la interacción con la base
+	de datos
+
+	Se utilizo para la interacción con la base de datos el paquete:
+
+		-	mysql-connector-java-5.1.44-bin.jar
+
+
+FUNCIONAMIENTO:
+
+	Dentro de la interfaz se pueden llevar acabo las siguientes acciones:
+
+	Tablas:
+		-Las tablas se pueden mostrar u ocultar presionando el boton que tiene su titulo
+		-Las tablas se pueden editar para crear un nuevo producto o un nuevo almacen solo
+		se debe de presionar el boton nuevo.
+		-Para que los cambios se vean reflejados en la tabla de salida o en la base de datos
+		se debera de presionar el boton SAVE/GUARDAR
+		-Si se desea verificar que los datos de la base de datos coinciden con los de la GUI
+		presionar: REFRESH
+		-El boton HIDE, tambien oculta la tabla.
+		-En la barra de menu podemos seleccionar las tablas que deseamos visualizar y de igual
+		manera podemos salir de la interfaz
